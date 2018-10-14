@@ -1,4 +1,4 @@
-from mynewdb import db
+from mydb import db
 from get import getinfo
 g=getinfo()
 d=db()

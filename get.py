@@ -47,7 +47,7 @@ class getinfo:
         # print(d)
     def intodb(self):
 
-        from mynewdb import db
+        from mydb import db
         m = db()
         for key,value in d.items():
             print(key,value)
